@@ -1,0 +1,49 @@
+.cleanlogin-container {
+	margin: 0;
+	padding: 26px 24px 36px 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0 !important;
+    border: 0 !important;
+    .cleanlogin-preview-top {
+    	a {
+    		display: block;
+    		float: none;
+    		text-align: left;
+    	}
+    }
+
+	.cleanlogin-preview {
+		text-align: left;
+	}
+    h4, label {
+    	text-align: left;
+    }
+	input[type="text"], input[type="password"], input[type="email"] {
+		background-color: #fff;
+		width: 100%;
+		border: 0;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		-ms-border-radius: 3px;
+		-o-border-radius: 3px;
+		border-radius: 3px;
+		border: 1px solid #ccc;
+		padding: 5px;
+		float: left;
+		margin: 5px 0;
+	}
+	input[type="submit"] {
+		background-color: #999;
+		display: inline-block;
+		padding: 0 15px;
+		font-size: 24px;
+		border: 0;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		-ms-border-radius: 3px;
+		-o-border-radius: 3px;
+		border-radius: 3px;
+		color: #fff;
+	}
+}
